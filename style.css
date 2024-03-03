@@ -1,0 +1,105 @@
+/*seletores*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: burlywood;
+}
+
+/*----------Parte do cabeçalho -------------*/
+.cabecalho {
+  background-color: #383d58;
+  display: flex;/*coloca os elementos ao lado*/
+  justify-content: space-around;/*espaçamentos entre os elementos e nos lados externos*/
+  align-items: center; /*colocando os itens ao centro */
+  padding: 24px 0; /*espaçamento interno 24px superior e inferior e 0 direita e esquerda*/
+}
+
+.cabecalho-imagem {
+  width: 20%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;/*colocando em linha os elementos*/
+    margin: 0 16px; /*0 superior   e 16px direita e esquerda*/
+    color: #ffffff;
+}
+
+/*-----------------Seção escola----------------*/
+.escola-imagem{
+  width: 25%;
+}
+
+.escola{
+  background-image: linear-gradient( #383D58, #4EBFE9 );
+  color: white;
+  display: flex;
+  justify-content: center;/*centralizando os elementos dentro .escola indo para o centro da página*/
+  align-items: center;/*alinha ao centro da caixa superior e inferior*/
+  padding: 24px 0;/*superior e inferior direita e esquerda*/
+}
+
+.escola-div-conteudo{
+  width: 35%;
+}
+.curso-titulo{
+  text-align: center;
+}
+
+.escola-titulo{
+  padding: 24px 0;/*superior e inferior e direita e esquerda*/
+}
+
+/*Seção estudande imagem*/
+
+.estudante-imagem {
+  width: 120px;
+}
+
+.estudante-icone{
+  width: 24px;
+}
+
+.estudante-titulo{
+  text-align: center;
+  padding: 50px 0;/*superior inferior direita e esquerda*/
+}
+
+/*alinhar as divs*/
+.estudante-div{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.estudante-todos{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20% ;/*cria 5 colunas com espaços entre elas*/
+}
+
+.estudante-icone{
+  padding: 8px;
+}
+
+.rodape{
+  background-color: black;
+  text-align: center;
+}
+
+.rodape-imagem {
+  height: 60px;
+  padding: 12px 0 ;/*superior e inferior direita e esquerda*/
+
+}

@@ -1,2 +1,2 @@
-# estudantes-senac
-Site de fotos dos alunos do cursos Senac
+# estudantes
+um pequena página para a aula no Colégio Vale do Tigre 2°ano e 3° ano
